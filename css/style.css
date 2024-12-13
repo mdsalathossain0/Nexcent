@@ -1,0 +1,78 @@
+nav{
+    background: #F5F7FA;
+    padding: 20px 0;
+}
+
+.nav_button a{
+    background: #4CAF4F;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+   
+   
+}
+
+.nav_button a:hover{
+    background: white;
+    color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+.navbar-nav{
+    column-gap: 30px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #18191F;
+    
+
+}
+/* lesson part start */
+.lessons{
+    background: #F5F7FA;
+    padding-top: 96px;
+    padding-bottom: 30px;
+}
+.lessons h1{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+}
+.lessons h1 span {
+    color: #4CAF4F;
+}
+.lessons .common-button{
+    text-decoration: none;
+    background: #4CAF4F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: white;
+    padding: 14px 32px;
+    display: inline-block;
+}
+.lessons p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #717171;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.lessons  .lesson-img{
+    padding-left: 100px ;
+}
+.lessons .dotline{
+    padding-top: 70px;
+}
+
+/* lesson part end */
+
