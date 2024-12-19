@@ -1,78 +1,145 @@
+/* nav part start */
 nav{
     background: #F5F7FA;
-    padding: 20px 0;
+    padding: 30px 0  !important;
 }
 
-.nav_button a{
-    background: #4CAF4F;
-    font-size: 14px;
-    font-family: "Inter", sans-serif;
+nav .nav-item{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: #18191F;
+
+}
+
+nav .nav-button a{
     text-decoration: none;
+    background: #4CAF4F;
     color: white;
+    font-family: "Inter", serif;
+    font-size: 14px;
     font-weight: 500;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 6px;
     margin-left: 10px;
-    border: 1px solid transparent;
-   
-   
 }
 
-.nav_button a:hover{
-    background: white;
-    color: #4CAF4F;
-    border-color: #4CAF4F;
-}
-.navbar-nav{
-    column-gap: 30px;
-}
-.nav-link{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-    color: #18191F;
-    
+/* nav part end */
 
-}
 /* lesson part start */
-.lessons{
+.lessons {
     background: #F5F7FA;
-    padding-top: 96px;
-    padding-bottom: 30px;
+    padding: 80px 0;
+    
+}
+.lessons .lesson1{
+    padding-left: 30px !important;
 }
 .lessons h1{
+    
     font-size: 64px;
     font-weight: 600;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", serif;
     color: #4D4D4D;
+
 }
-.lessons h1 span {
+.lessons h1 span{
+    
     color: #4CAF4F;
 }
-.lessons .common-button{
-    text-decoration: none;
-    background: #4CAF4F;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Inter", sans-serif;
-    color: white;
-    padding: 14px 32px;
-    display: inline-block;
-}
 .lessons p{
+    color: #717171;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Inter", sans-serif;
-    color: #717171;
+    font-family: "Inter", serif;
     padding-top: 16px;
     padding-bottom: 32px;
-}
-.lessons  .lesson-img{
-    padding-left: 100px ;
-}
-.lessons .dotline{
-    padding-top: 70px;
-}
 
+}
+.lessons .common-button a{
+    text-decoration: none;
+    background: #4CAF4F;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    padding: 14px 32px;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+.lessons .image1{
+    padding-left: 42px !important;
+}
 /* lesson part end */
+/* client part start */
+.client{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
 
+ .common-heading{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    color: #4D4D4D;
+}
+.client p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+
+/* client part end */
+
+/* Banner part start */
+.banner{
+    padding: 20px 0;
+}
+/* Banner part End */
+/* manage part start */
+.manage{
+    text-align: center;
+    padding: 40px 0;
+}
+.manage h2{
+    width: 475px;
+    margin: 0 auto;
+}
+.manage p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+/* manage part end */
+/* community cart part start */
+.community-cart .card{
+    width: 100% !important;
+    padding: 0 48px;
+    text-align: center;
+}
+.community-cart .card img{
+    width: 65px;
+    margin: 0 auto;
+}
+.community-cart .card-title{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    color: #4D4D4D;
+    
+}
+.community-cart .card-text{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    width: 250px;
+    
+}
+/* community cart part end */
