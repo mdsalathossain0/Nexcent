@@ -29,14 +29,19 @@ nav .nav-item{
 
 nav .nav-button a{
     text-decoration: none;
-    background: #4CAF4F;
-    color: white;
+    background: #F5F7FA;
+    color: black;
     font-family: "Inter", serif;
     font-size: 14px;
     font-weight: 500;
     padding: 10px 20px;
     border-radius: 6px;
     margin-left: 10px;
+    border: 1px solid #4CAF4F;
+}
+nav .nav-button a:hover{
+    background: #4CAF4F;
+    color: white;
 }
 
 /* nav part end */
