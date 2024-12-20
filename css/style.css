@@ -10,6 +10,9 @@
    display: inline-block;
 
 }
+.box{
+    display: flex;
+}
 /* nav part start */
 nav{
     background: #F5F7FA;
@@ -151,6 +154,9 @@ box-shadow: 0px 4px 4px 0px rgba(171,190,209,1);
 }
 /* community cart part end */
 /* unseen part Start */
+.unseen{
+    padding-top: 48px ;
+}
 .unseen h2{
     width: 580px;
 }
@@ -185,4 +191,70 @@ box-shadow: 0px 4px 4px 0px rgba(171,190,209,1);
     font-weight: 400;
     font-family: "Inter", serif;
 }
+.busines .box{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 25px;
+}
+
+.busines .box .details{
+    width: 48%;
+    display: flex;
+    column-gap: 10px;
+    
+}
+
+
 /* business part end */
+/* meacians part start */
+.meacians{
+    background: #F5F7FA;
+    padding: 32px;
+}
+.meacians p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+.meacians h4{
+    color: #4CAF4F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+.meacians .meet-part{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.meacians .meet-part p{
+    color: #4CAF4F;
+    
+}
+.meacians .meet-part p i{
+    padding-left: 10px;
+    
+}
+/* meacians part end */
+/* merketing part start */
+.marketing{
+   text-align: center;
+   padding-top: 32px;
+   padding-bottom: 16px;
+}
+.marketing p{
+     width: 597px; 
+     margin: 0 auto;
+     color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+.marketing h2{
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+}
+/* merketing part end */
