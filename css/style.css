@@ -1,3 +1,15 @@
+.common-button a{
+   text-decoration: none;
+   background: #4CAF4F;
+   color: white;
+   font-size: 16px;
+   font-weight: 500;
+   font-family: "Inter", serif;
+   padding: 14px 32px;
+   border-radius: 4px;
+   display: inline-block;
+
+}
 /* nav part start */
 nav{
     background: #F5F7FA;
@@ -56,18 +68,6 @@ nav .nav-button a{
     padding-bottom: 32px;
 
 }
-.lessons .common-button a{
-    text-decoration: none;
-    background: #4CAF4F;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Inter", serif;
-    padding: 14px 32px;
-    border-radius: 4px;
-    display: inline-block;
-
-}
 .lessons .image1{
     padding-left: 42px !important;
 }
@@ -118,10 +118,17 @@ nav .nav-button a{
 }
 /* manage part end */
 /* community cart part start */
+.community-cart{
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
 .community-cart .card{
     width: 100% !important;
     padding: 0 48px;
     text-align: center;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(171,190,209,1);
+-moz-box-shadow: 0px 4px 4px 0px rgba(171,190,209,1);
+box-shadow: 0px 4px 4px 0px rgba(171,190,209,1);
 }
 .community-cart .card img{
     width: 65px;
@@ -143,3 +150,39 @@ nav .nav-button a{
     
 }
 /* community cart part end */
+/* unseen part Start */
+.unseen h2{
+    width: 580px;
+}
+.unseen p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.unseen .col-lg-7{
+    padding: 80px 0;
+}
+/* unseen part end */
+/* business part start */
+.busines{
+    background: #F5F7FA;
+    margin-top: 48px;
+    padding: 64px 0;
+}
+
+.busines h3 span{
+    color: #4CAF4F;
+}
+.busines h3 {
+    width: 390px;
+}
+.busines p {
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+}
+/* business part end */
