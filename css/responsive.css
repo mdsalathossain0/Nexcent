@@ -1,0 +1,225 @@
+
+@media (min-width:320px) and (max-width:375.99px){
+   /* Nav part Start */
+   .common-button a:hover{
+    background-color: #4CAF4F;
+    color: white;
+ 
+ }
+    .navbar .navbar-nav{
+        border-radius: 10px;
+       background: rgb(61, 137, 199); 
+       align-items: center;
+       margin-top: 12px;
+       padding-bottom: 20px;
+       margin-bottom: 12px;
+    }
+    .navbar-toggler-icon {
+        width: 1.0em;
+        height: 1.0em;
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+       color: white;
+       font-size: 14px;
+    }
+    .navbar .nav-button {
+        margin-top: 18px;
+        text-align: center;
+    }
+    /* nav part end */
+    /* lesson part start */
+    .lessons {
+        background: #F5F7FA;
+        padding: 15px 0;
+    }
+    .lessons h1 {
+        font-size: 32px;
+       
+    }
+    .lessons p {
+       
+        font-size: 14px;
+       
+    }
+    .lessons .image1 {
+       
+        width: 240px;
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+    }
+    /* lesson part end */
+    /* client part start */
+    .client .common-heading h2 {
+        font-size: 28px;
+    }
+    .client p {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    /* client part end */
+    /* banner part start */
+    img, svg {
+        vertical-align: middle;
+        width: 97%;
+      
+    }
+    /* banner part end */
+    /* manage part start */
+    .manage h2 {
+        width: 326px;
+        margin: 0 auto;
+        font-size: 27px;
+    }
+    .manage p {
+        font-size: 14px;
+    }
+    /* manage part end */
+    /* Community-cart part start */
+    .community-cart .card-title {
+        font-size: 26px;
+    }
+    .community-cart .card-text {
+        width: auto;
+        font-size: 14px;
+    }
+    .community-cart .card {
+        margin-bottom: 20px;
+    }
+    /* Community-cart part end */
+    /* unseen part start */
+    .unseen {
+        padding: 0 8px;
+    }
+    .unseen .col-lg-7 {
+        padding: 8px 0;
+    }
+    .unseen h2 {
+        width: 322px;
+    }
+    .common-heading {
+        font-size: 28px;
+        padding: 0 8px;
+    }
+    .unseen p {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .unseen .common-button{
+        padding-left: 10px;
+    }
+    /* unseen part end */
+    /* business part start */
+    .busines h3 {
+        width: 337px;
+    }
+    .busines p {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    /* business part end */
+    /* mececians part start */
+   .meacians .row > * {
+
+      padding-right: 0;
+      padding-left:  0;
+      margin-top:  0;
+    }
+    .meacians {
+        padding: 26px 8px;
+    }
+    .meacians .meet-part {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 8px;
+    }
+    .meacians p {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .meacians h4 {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .meacians .meet-icon {
+        padding-left: 10px;
+        width: 28%;
+    }
+    /* mececians part end */
+    /* marketing part start */
+    .marketing p {
+        width: 300px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .marketing h2 {
+        font-size: 32px;
+    }
+    /* marketing part end */
+    /* cart part start */
+    .card-part .overlay{
+        width: 80%;
+        height: 170px;
+        -webkit-box-shadow: 0px 8px 16px 0px rgba(171,190,209,0.75);
+        -moz-box-shadow: 0px 8px 16px 0px rgba(171,190,209,0.75);
+        box-shadow: 0px 8px 16px 0px rgba(171,190,209,0.75);
+        background: #F5F7FA;
+        border-radius: 8px;
+        padding-top: 1;
+        position: absolute;
+        top: 210px;
+        left: 36px;
+        opacity: 1;   
+     }
+     .card-part .image-part:hover .overlay{
+        
+    }  
+    /* cart part end */
+    /* suscipit part start */
+    .suscipit p {
+        width: 319px;
+        margin: 0 auto;
+        font-size: 44px;
+    }
+    /* suscipit part end */
+    /* footer part start */
+    .footer img {
+        padding-bottom: 32px;
+    }
+    .footer-img {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .footer h6 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer .icon ul {
+
+        justify-content: center;
+       padding-top: 22px;
+    }
+    .footer .icon1{
+        padding-top: 22px;
+        text-align: center;
+    }
+    .footer .icon1 h4 {
+        font-size: 18px;
+        padding-bottom: 12px;
+    }
+    .footer .icon1 ul {
+
+        row-gap: 6px;
+    }
+    .footer .icon1 ul li {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Inter", serif;
+        color: #F5F7FA;
+    }
+    .footer .icon1 .form-part{
+        width: 85%;
+        margin: 0 auto;
+    }
+    /* footer part end */
+}
